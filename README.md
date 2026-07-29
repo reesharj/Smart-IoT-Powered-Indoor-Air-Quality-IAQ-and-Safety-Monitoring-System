@@ -1,43 +1,49 @@
 # Smart IoT-Powered Indoor Air Quality (IAQ) and Safety Monitoring System
 
-An IoT-based smart kitchen monitoring system that detects gas leaks and monitors indoor air quality in real time using ESP32.
-
 ## Overview
 
-This project was developed to improve kitchen safety by continuously monitoring gas concentration and detecting human presence. When unsafe gas levels are detected, the system automatically activates an exhaust fan, triggers a buzzer, and sends notifications through the Blynk dashboard and Telegram.
+This project is an IoT-based indoor air quality and kitchen safety monitoring system developed using the ESP32 microcontroller. It monitors LPG gas concentration and human presence in the kitchen, automatically activates an exhaust fan, triggers an alarm when necessary, and provides real-time monitoring through the Blynk platform with Telegram notifications.
 
 ## Features
 
-- Real-time gas monitoring
-- Human presence detection
+- Real-time LPG gas monitoring using the MQ-2 sensor
+- Motion detection using a PIR sensor
 - Automatic exhaust fan control
-- Buzzer alert
-- Blynk IoT dashboard
-- Telegram notifications
+- RGB LED status indication
+- Buzzer alert during hazardous conditions
+- Real-time monitoring via Blynk
+- Telegram notifications for critical gas leaks
 
 ## Hardware
 
 - ESP32
 - MQ-2 Gas Sensor
-- PIR Sensor
+- PIR Motion Sensor
 - Relay Module
-- Mini Exhaust Fan
+- Exhaust Fan
 - RGB LED
 - Buzzer
 
 ## Software
 
 - Arduino IDE
-- ESP32
+- ESP32 Board Package
 - Blynk IoT
-- Telegram Bot API
+- Universal Telegram Bot Library
+
+## Repository Structure
+
+```text
+code/
+hardware/
+images/
+README.md
+```
 
 ## Project Images
 
-Project images will be added soon.
+Prototype and system screenshots are available in the `images` folder.
 
-## Future Improvements
+## Hardware Design
 
-- Improve gas detection accuracy
-- Add additional air quality sensors
-- Store historical monitoring data
+Circuit diagram, schematic, block diagram, and operational flowchart are available in the `hardware` folder.
