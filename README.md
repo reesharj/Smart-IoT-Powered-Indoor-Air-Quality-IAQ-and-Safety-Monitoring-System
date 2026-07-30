@@ -61,7 +61,7 @@ The **hardware** folder contains the circuit diagram, schematic diagram, block d
 
 **Reeshaleni D/O Balakrishenan**
 
-Embedded System Design Course Assignment
+Iintegrated Design Project (IDP) Course Assignment
 
 Bachelor of Computer Engineering with Honours (BERR)
 
