@@ -2,34 +2,34 @@
 
 ## Overview
 
-This project is an IoT-based indoor air quality and kitchen safety monitoring system developed using the ESP32 microcontroller. It monitors LPG gas concentration and human presence in the kitchen, automatically activates an exhaust fan, triggers an alarm when necessary, and provides real-time monitoring through the Blynk platform with Telegram notifications.
+This project is an IoT-based indoor air quality and kitchen safety monitoring system developed as part of the **Integrated Design Project (IDP)** course at **Universiti Teknikal Malaysia Melaka (UTeM)**. Using an ESP32, MQ-2 gas sensor, and PIR motion sensor, the system monitors LPG gas concentration and human presence, automatically activates an exhaust fan during hazardous conditions, and provides real-time monitoring through the Blynk platform with Telegram notifications.
 
 ## Features
 
-- Real-time LPG gas monitoring using the MQ-2 sensor
-- Motion detection using a PIR sensor
-- Automatic exhaust fan control
-- RGB LED status indication
-- Buzzer alert during hazardous conditions
-- Real-time monitoring via Blynk
-- Telegram notifications for critical gas leaks
+* Real-time LPG gas monitoring using the MQ-2 sensor
+* Motion detection using a PIR sensor
+* Automatic exhaust fan control
+* RGB LED status indication
+* Buzzer alerts for hazardous conditions
+* Real-time monitoring via Blynk
+* Telegram notifications for gas leaks
 
 ## Hardware
 
-- ESP32
-- MQ-2 Gas Sensor
-- PIR Motion Sensor
-- Relay Module
-- Exhaust Fan
-- RGB LED
-- Buzzer
+* ESP32
+* MQ-2 Gas Sensor
+* PIR Motion Sensor
+* Relay Module
+* Exhaust Fan
+* RGB LED
+* Buzzer
 
 ## Software
 
-- Arduino IDE
-- ESP32 Board Package
-- Blynk IoT
-- Universal Telegram Bot Library
+* Arduino IDE
+* ESP32 Board Package
+* Blynk IoT
+* Universal Telegram Bot Library
 
 ## Repository Structure
 
@@ -42,8 +42,27 @@ README.md
 
 ## Project Images
 
-Prototype and system screenshots are available in the `images` folder.
+The **images** folder contains the project prototype, hardware setup, and system screenshots.
 
-## Hardware Design
+## Hardware Documentation
 
-Circuit diagram, schematic, block diagram, and operational flowchart are available in the `hardware` folder.
+The **hardware** folder contains the circuit diagram, schematic diagram, block diagram, and operational flowchart.
+
+## Skills Demonstrated
+
+* Internet of Things (IoT)
+* Embedded Systems
+* ESP32 Programming
+* Sensor Interfacing
+* Hardware Integration
+* Automation
+
+## Author
+
+**Reeshaleni D/O Balakrishenan**
+
+Embedded System Design Course Assignment
+
+Bachelor of Computer Engineering with Honours (BERR)
+
+Universiti Teknikal Malaysia Melaka (UTeM)
